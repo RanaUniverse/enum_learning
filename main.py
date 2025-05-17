@@ -1,6 +1,2 @@
-def main():
-    print("Hello from enum-learning!")
-
-
-if __name__ == "__main__":
-    main()
+text = f"For Now go to my_module.py and run that file."
+print(text)
