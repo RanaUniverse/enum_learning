@@ -23,7 +23,7 @@ fruits_rows = [
 ]
 
 
-def split_list(input_list, items_count):
+def split_list(input_list: list[str], items_count: int) -> list[list[str]]:
 
     return [
         input_list[i : i + items_count] for i in range(0, len(input_list), items_count)
